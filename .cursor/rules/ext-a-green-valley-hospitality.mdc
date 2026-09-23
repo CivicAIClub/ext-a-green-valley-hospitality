@@ -1,0 +1,27 @@
+---
+description: Project context for Ext A Green Valley Hospitality — client, purpose, client-data rule, how to talk to the client, and where the private details live
+alwaysApply: true
+---
+
+# Ext A — Green Valley Hospitality: POS Daily Sales Automation
+
+## Client
+- Green Valley Hospitality, LLC. Primary contact: Nathan Labossiere, Regional Manager.
+
+## Purpose
+- Automate the restaurants' daily sales reporting so each day's figures reach the client's reporting spreadsheets without being retyped by hand.
+
+## Team and status
+- Team to be assigned; club lead Cayden Auyang. Update this line and `.github/CODEOWNERS` when developers are assigned. Discovery complete; Phase 1 not started.
+
+## Client data rule
+- **Never commit client data. Sales PDFs, exports, spreadsheets, customer lists, and email lists stay in a gitignored data/ folder or in Drive, never in git.** See `data/README.md`. This repository is public.
+- Keep contact details, discovery notes, and client requirements out of code comments, tests, docs, commit messages, and PR descriptions.
+
+## Talking to the client
+- In anything the client will see (emails, demos, docs you hand over), describe the work as a time-saving tool. Don't lead with "AI", and don't name the school's faculty projects.
+- Don't promise scope or timelines without Cayden.
+
+## Where the details are
+- Discovery notes, contacts, and client requirements live in the club's private running doc (link in the Civic AI Club Google Drive). Do not copy them into this repo.
+- If you need a requirement that isn't already expressed in the code, ask the developer to check the running doc instead of guessing. When a requirement becomes code, write the code; don't paste the notes, examples, or client data into comments.
